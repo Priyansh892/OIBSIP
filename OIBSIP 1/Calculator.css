@@ -1,0 +1,32 @@
+.box{
+    width: 40%;
+    margin: auto;
+    background-color: rgba(8, 211, 188, 0.31);
+}
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .display,input {
+    grid-column: 1/6;
+    grid-row: 1/2;
+    padding: 15px;
+    text-align: right;
+    background-color: rgba(26, 147, 246, 0.77);
+    border: 1px solid #cccccc05;
+    border-radius: 10px;
+  }
+  #enter
+  {
+    grid-column:4/6;
+    padding:15px;
+  }
+  button{
+    background-color: rgba(0, 131, 239, 0.77);
+  }
